@@ -1,7 +1,7 @@
 function loadSong() {
   var xhttp = new XMLHttpRequest();
   var pre = '<iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/';
-  var post = ' width="80%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+  var post = '" width="25%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4) {
       switch (this.status) {
