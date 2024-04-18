@@ -17,8 +17,8 @@ function loadSong() {
       }
     }
   };
-  xhttp.open("GET", "http://mail.allalike.org/spotify", true);
-  // xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
+  xhttp.open("GET", "https://mail.allalike.org/spotify", true);
+  xhttp.setRequestHeader("Access-Control-Allow-Origin", "*");
   xhttp.send();
 }
 
